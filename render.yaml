@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: dashboard-petani-perempuan
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
